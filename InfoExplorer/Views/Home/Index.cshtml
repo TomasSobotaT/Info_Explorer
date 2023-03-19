@@ -1,0 +1,61 @@
+﻿@*@model IndexModel*@
+@{
+	ViewData["Title"] = "Info Explorer";
+}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ67YCanNnZbBd5dlvT6PPXJsTU--0xtU&callback=initMap&v=weekly" defer></script>
+
+<p class="text-center text-info fw-bold"> your IP, location, weather and much more </p>
+<hr>
+
+<div class="row my-5">
+
+	<div class="col-12 col-md-4 text-center text-md-start">
+		<div class="fw-bold">My IP adress: <span class="text-primary">@ViewBag.MyIP</span></div>
+		<div class="fw-bold">Language: <span class="text-primary" id="language"></span></div>
+		<div class="fw-bold">Pokus: <span class="text-primary" id="pokus"></span></div>
+		<div class="fw-bold">Browser: <span class="text-primary" id="browser_version"></span></div>
+	</div>
+
+
+	
+
+	<div class="col-12 col-md-4  fw-bold my-4 my-md-0 text-center text-md-start">
+		<div>City: <span class="text-success">@ViewBag.MyCity</span></div>
+		<div>Region: <span class="text-success">@ViewBag.MyRegion</span></div>
+		<div>Country: <span class="text-success">@ViewBag.MyCountry</span></div>
+		<div>Longitude: <span id="long" class="text-success">@ViewBag.MyLongitude</span></div>
+		<div>Latitude: <span id="lati" class="text-success">@ViewBag.MyLatitude</span></div>
+	</div>
+
+
+	<div class="col-12 col-md-4 fw-bold d-flex flex-md-row flex-column justify-content-center justify-content-md-start">
+		<div class="text-center text-md-start">
+		<div>Actual weather: <span class="text-warning">@ViewBag.MyWeatherNow</span></div>
+			<div>Temperature: <span class="text-warning">@ViewBag.MyTemperatureNow °C</span> </div>
+		</div>
+		@{
+		string path = "https://www.meteosource.com/static/img/ico/weather/"+ViewBag.MyWeatherIcon+".svg";
+		}
+		<div class="ms-3 text-center text-md-start" "> <img src="@path"></div>
+	</div>
+	<div>Tomorow weather: <span class="text-warning">kokoko"</span></div>
+
+
+
+	<hr class="mt-5">
+
+	<div class="col-12 mt-5">
+		<div class="w-100 text-center h3 mb-4">YOUR LOCATION:</div>
+		<div id="map"></div>
+	</div>
+
+
+</div>
+
+<script>
+
+</script>
+
+
+
+
