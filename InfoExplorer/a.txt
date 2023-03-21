@@ -1,0 +1,7 @@
+System.InvalidOperationException: An invalid request URI was provided. Either the request URI must be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.CheckRequestBeforeSend(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetAsync(String requestUri)
+   at InfoExplorer.Models.MeteoModel.GetWeather(String Latitude, String Longitude) in C:\GitHubZaloha\InfoExplorer\InfoExplorer\Models\MeteoModel.cs:line 37
+   at InfoExplorer.Controllers.HomeController.Index() in C:\GitHubZaloha\InfoExplorer\InfoExplorer\Controllers\HomeController.cs:line 34

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMLEs257tQkuxyEIZjZdhuwAAAAACAAAAAAAQZgAAAAEAACAAAAA01dCIXpG+3wPe3qDPRLiy5fQu5lAlHY4QPCuRLvO5wQAAAAAOgAAAAAIAACAAAABJjd8RsvWrgczb2pfxxeQnRxW60Bcw3Mg7DjR+ZzbndCAAAAB6jVjudj9/MUKdgSmHHJULP9bsHBYw73amtlvpxyZt1kAAAABzJ9C6y273vIrA3Ug/We9uqfjtICnHKEQcfOR0y3zgpnjv+VHKW+19k0tR8dKQdYbvAiS2nvw6807qz2ncFhin</EncryptedPassword>
+    <_PublishTargetUrl>ftp://free.aspify.com/www</_PublishTargetUrl>
+    <History>True|2023-03-21T11:39:33.2034484Z;True|2023-03-21T12:31:29.1542071+01:00;True|2023-03-21T12:18:18.3073525+01:00;True|2023-03-21T12:12:19.3687919+01:00;True|2023-03-21T12:02:18.7180528+01:00;True|2023-03-21T11:59:17.3618310+01:00;True|2023-03-19T22:14:38.3472692+01:00;True|2023-03-19T22:09:23.6453323+01:00;True|2023-03-19T22:05:56.7671750+01:00;True|2023-03-19T21:53:31.2171919+01:00;True|2023-03-19T21:50:48.7720918+01:00;True|2023-03-19T21:40:42.3760914+01:00;True|2023-03-19T21:35:49.6999049+01:00;True|2023-03-19T21:32:35.3759472+01:00;True|2023-03-19T21:22:25.0224925+01:00;True|2023-03-19T21:01:04.8160125+01:00;True|2023-03-19T20:52:02.1772225+01:00;True|2023-03-19T20:17:45.9709491+01:00;True|2023-03-19T19:57:39.5518742+01:00;True|2023-03-19T19:52:43.5822225+01:00;True|2023-03-19T19:50:05.8590312+01:00;True|2023-03-19T19:46:34.8255554+01:00;True|2023-03-19T19:39:36.5669038+01:00;True|2023-03-19T19:30:16.3054811+01:00;True|2023-03-19T19:26:08.4167075+01:00;True|2023-03-19T19:22:01.1033900+01:00;True|2023-03-19T19:18:44.4821298+01:00;True|2023-03-19T19:16:05.7099315+01:00;True|2023-03-19T18:52:06.9641420+01:00;True|2023-03-19T18:32:04.5333030+01:00;False|2023-03-19T18:27:53.0115808+01:00;False|2023-03-19T18:22:47.5616561+01:00;True|2023-03-19T18:13:39.4126774+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="InfoExplorer.deps.json">
+      <publishTime>03/21/2023 12:38:33</publishTime>
+    </File>
+    <File Include="InfoExplorer.dll">
+      <publishTime>03/21/2023 12:38:32</publishTime>
+    </File>
+    <File Include="InfoExplorer.exe">
+      <publishTime>03/21/2023 12:38:33</publishTime>
+    </File>
+    <File Include="InfoExplorer.pdb">
+      <publishTime>03/21/2023 12:38:32</publishTime>
+    </File>
+    <File Include="InfoExplorer.runtimeconfig.json">
+      <publishTime>03/19/2023 18:12:43</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>03/08/2023 08:09:54</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/21/2023 12:38:34</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>03/19/2023 16:31:07</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo.png">
+      <publishTime>03/06/2023 21:07:04</publishTime>
+    </File>
+    <File Include="wwwroot/InfoExplorer.styles.css">
+      <publishTime>03/19/2023 18:12:42</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>03/21/2023 12:35:12</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>03/19/2023 14:59:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

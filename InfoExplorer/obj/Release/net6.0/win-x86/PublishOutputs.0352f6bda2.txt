@@ -1,0 +1,8 @@
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\InfoExplorer.exe
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.Development.json
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\appsettings.json
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\InfoExplorer.dll
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\InfoExplorer.deps.json
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\InfoExplorer.runtimeconfig.json
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\InfoExplorer.pdb
+C:\GitHubZaloha\InfoExplorer\InfoExplorer\obj\Release\net6.0\win-x86\PubTmp\Out\Newtonsoft.Json.dll

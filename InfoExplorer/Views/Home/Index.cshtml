@@ -1,4 +1,4 @@
-﻿@*@model IndexModel*@
+﻿@model MeteoModel
 @{
 	ViewData["Title"] = "Info Explorer";
 }
@@ -12,12 +12,11 @@
 	<div class="col-12 col-md-4 text-center text-md-start">
 		<div class="fw-bold">My IP adress: <span class="text-primary">@ViewBag.MyIP</span></div>
 		<div class="fw-bold">Language: <span class="text-primary" id="language"></span></div>
-		<div class="fw-bold">Pokus: <span class="text-primary" id="pokus"></span></div>
 		<div class="fw-bold">Browser: <span class="text-primary" id="browser_version"></span></div>
 	</div>
 
 
-	
+
 
 	<div class="col-12 col-md-4  fw-bold my-4 my-md-0 text-center text-md-start">
 		<div>City: <span class="text-success">@ViewBag.MyCity</span></div>
@@ -28,17 +27,33 @@
 	</div>
 
 
-	<div class="col-12 col-md-4 fw-bold d-flex flex-md-row flex-column justify-content-center justify-content-md-start">
-		<div class="text-center text-md-start">
-		<div>Actual weather: <span class="text-warning">@ViewBag.MyWeatherNow</span></div>
-			<div>Temperature: <span class="text-warning">@ViewBag.MyTemperatureNow °C</span> </div>
+	<div class="col-12 col-md-4 fw-bold d-flex flex-column justify-content-center justify-content-md-start">
+
+		<div class="d-flex flex-md-row flex-column">
+			<div class="text-center text-md-start">
+				<div>Current weather: <span class="text-warning">@ViewBag.MyWeatherNow</span></div>
+				<div>Current temperature: <span class="text-warning">@ViewBag.MyTemperatureNow °c</span> </div>
+			</div>
+			@{
+				string weather_current_path = "https://www.meteosource.com/static/img/ico/weather/" + ViewBag.MyWeatherIconNow + ".svg";
+			}
+			<div class="ms-3 text-center text-md-start"> <img src="@weather_current_path"></div>
 		</div>
-		@{
-		string path = "https://www.meteosource.com/static/img/ico/weather/"+ViewBag.MyWeatherIcon+".svg";
-		}
-		<div class="ms-3 text-center text-md-start" "> <img src="@path"></div>
+
+		<br>
+
+		<div class="d-flex flex-md-row flex-column">
+			<div class="text-center text-md-start">
+				<div>Tomorrow weather:<br /> <span class="text-warning">@ViewBag.MyWeatherTomorrow</span></div>
+				<div>Tomorrow temperature: <span class="text-warning">@ViewBag.MyTemperatureTomorrow °c</span> </div>
+			</div>
+			@{
+				string weather_tomorrow_path = "https://www.meteosource.com/static/img/ico/weather/" + ViewBag.MyWeatherIconTomorrow + ".svg";
+			}
+			<div class="ms-3 text-center text-md-start"> <img src="@weather_tomorrow_path"></div>
+		</div>
+
 	</div>
-	<div>Tomorow weather: <span class="text-warning">kokoko"</span></div>
 
 
 

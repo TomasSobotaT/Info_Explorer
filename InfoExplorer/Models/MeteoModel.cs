@@ -1,5 +1,6 @@
 ﻿using InfoExplorer.Models.ApiModels;
 using Newtonsoft.Json;
+using System.Net;
 
 namespace InfoExplorer.Models
 {
@@ -28,9 +29,26 @@ namespace InfoExplorer.Models
         /// <returns></returns>
         public async Task GetWeather(string Latitude, string Longitude)
         {
-            Uri urlWeather = new Uri($"https://www.meteosource.com/api/v1/free/point?lat={Latitude}&lon={Longitude}&sections=current&language=en&units=ca&key={apiKeyWeather}");
-            string jsonStringWeather = await client.GetStringAsync(urlWeather);
+            string jsonStringWeather;
+
+            Uri urlWeather = new Uri($"https://www.meteosource.com/api/v1/free/point?lat={Latitude}&lon={Longitude}&sections=current%2Cdaily&language=en&units=auto&key={apiKeyWeather}");
+
+            var response = await client.GetAsync(urlWeather);
+
+            if (response.IsSuccessStatusCode)
+            {
+                jsonStringWeather = await response.Content.ReadAsStringAsync();
+              
+            }
+            else
+            {
+                throw new Exception($"Error: {response.StatusCode}");
+            }
+
             meteoObject = JsonConvert.DeserializeObject<Meteo>(jsonStringWeather);
+
+            int x = 0;
+
         }
 
 

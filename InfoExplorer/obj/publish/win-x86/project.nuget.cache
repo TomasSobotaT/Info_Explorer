@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C//PYpV62eMmUwo1UbOrXUifG60zLwWtkvOy+7/dASIiT2KdfJjlZCNLqDfG66dUDT8YXB8PuIQLGk3ZPgMctA==",
+  "success": true,
+  "projectFilePath": "C:\\GitHubZaloha\\InfoExplorer\\InfoExplorer\\InfoExplorer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tsobo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
