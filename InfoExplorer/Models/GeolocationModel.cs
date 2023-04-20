@@ -1,12 +1,13 @@
 ﻿using InfoExplorer.Models.ApiModels;
 using Newtonsoft.Json;
+using System.Net.Http;
 
 namespace InfoExplorer.Models
 {
-	public class GeolocationModel
-	{
-        // instance of HttpClient use across this model
-        HttpClient client;
+    public class GeolocationModel
+    {
+        //https://learn.microsoft.com/en-us/dotnet/core/extensions/httpclient-factory
+        private readonly IHttpClientFactory _httpClientFactory = null!;
 
         //api key
         private readonly string apiKeyGeolocation = "5NGKVPTOXK&package=WS5";
@@ -17,25 +18,40 @@ namespace InfoExplorer.Models
         public Geolocation geolocationObject;
 
 
-        public GeolocationModel()
+        public GeolocationModel(IHttpClientFactory httpClientFactory)
         {
-            client = new HttpClient();
-            geolocationObject = new Geolocation();
+                         _httpClientFactory = httpClientFactory;
+                          geolocationObject = new Geolocation();
         }
 
 
         /// <summary>
         /// get my location, lat. , lon. and City from www.ip2location.com based my IP
         /// </summary>
-        /// <returns></returns>
         public async Task GetGeolocationByIP(string IP)
         {
-            Uri urlGeo = new Uri($"https://api.ip2location.com/v2/?ip={IP}&key={apiKeyGeolocation}");
-            string jsonStringGeolocation = await client.GetStringAsync(urlGeo);
-            geolocationObject = JsonConvert.DeserializeObject<Geolocation>(jsonStringGeolocation);
+            using HttpClient client = _httpClientFactory.CreateClient();
 
-            Latitude = geolocationObject.latitude.ToString().Replace(',', '.');
-            Longitude = geolocationObject.longitude.ToString().Replace(',', '.');
+            string jsonStringGeolocation;
+
+            Uri urlGeo = new Uri($"https://api.ip2location.com/v2/?ip={IP}&key={apiKeyGeolocation}");
+
+            var response = await client.GetAsync(urlGeo);
+
+            if (response.IsSuccessStatusCode)
+            {
+                jsonStringGeolocation = await response.Content.ReadAsStringAsync();
+                geolocationObject = JsonConvert.DeserializeObject<Geolocation>(jsonStringGeolocation);
+                Latitude = geolocationObject.latitude.ToString().Replace(',', '.');
+                Longitude = geolocationObject.longitude.ToString().Replace(',', '.');
+            }
+            else
+            {
+                throw new Exception($"Error: {response.StatusCode}");
+            }
+
+
+
         }
 
     }

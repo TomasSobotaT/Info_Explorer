@@ -20,7 +20,6 @@ namespace InfoExplorer.Models
         public string IP { get; private set; } = "Not Found";
 
 
-        public IPModel()  => client = new HttpClient();
 
 
 
@@ -31,6 +30,7 @@ namespace InfoExplorer.Models
         /// <returns></returns>
         public async Task<string> GetIP()
         {
+            using HttpClient client = new();
             string stringIP = await client.GetStringAsync(urlIP);
             stringIP = stringIP.Replace("<html><head><title>Current IP Check</title></head><body>Current IP Address: ", "")
                                .Replace("</body></html>", "").Trim();
